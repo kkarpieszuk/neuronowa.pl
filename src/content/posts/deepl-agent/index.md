@@ -1,6 +1,6 @@
 ---
 title: DeepL prezentuje agenta
-published: 2025-11-16
+published: 2025-11-16 00:52
 tags: [ 'deepl', 'claude', 'chatgpt', 'gemini', 'news' ]
 ---
 
