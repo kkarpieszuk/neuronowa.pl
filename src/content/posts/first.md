@@ -1,6 +1,7 @@
 ---
 title: "Pierwszy wpis, witajcie!"
 published: 2025-11-15
+tags: ['o stronie', 'astro', 'wordpress']
 ---
 
 No to zaczynam. Co prawda domenę kupiłem już dawno, to dopiero w połowie listopada (dokładnie połowie) zebrałem się do uruchomienia serwisu.
