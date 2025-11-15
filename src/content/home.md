@@ -2,7 +2,6 @@
 avatarImage:
   src: './avatar.jpg'
   alt: 'My avatar'
-githubCalendar: 'stelcodes'
 ---
 
-Welcome to the example site. This site is meant to show off my custom Astro theme/template **MultiTerm** which creates a coder-ready blog complete with an interactive theme changer, RSS, sitemap, tagging, and markdown extensions.
+Cześć, tu Konrad. Neuronowa.pl to miejsce gdzie znajdziesz newsy ze świata sztucznej inteligencji, ale też porady niezależnie czy dopiero zaczynasz swoją przygodę z AI czy też chcesz poznać jej zaawansowane detale. [Dowiedz się więcej](about) lub po prostu przewiń w dół i czytaj dalej.
