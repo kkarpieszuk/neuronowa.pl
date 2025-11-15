@@ -4,7 +4,7 @@ const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
   site: 'https://neuronowa.pl',
   // The name of your site, used in the title and for SEO.
-  title: 'Neuronowa',
+  title: 'Neuronowa.pl',
   // The description of your site, used for SEO and RSS feed.
   description:
     'Newsy, porady i tutoriale z zakresu AI. Zawsze pisane przez istotę białkową.',
@@ -153,7 +153,7 @@ const config: SiteConfig = {
   socialLinks: {
     github: 'https://github.com/kkarpieszuk/',
     mastodon: 'https://pol.social/@kkarpieszuk',
-    email: 'https://kolibia.pl',
+    email: 'kkarpieszuk@gmail.com',
     linkedin: 'https://www.linkedin.com/in/konrad-karpieszuk-38528b11/',
     bluesky: 'https://bsky.app/profile/kkarpieszuk.bsky.social',
     // twitter: 'https://github.com/stelcodes/multiterm-astro',

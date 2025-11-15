@@ -20,7 +20,7 @@ Choć temat serwisu jest jasny, postanowiłem sobie, że wszelkie treści będą
 
 Zmierzamy do czasów martwego internetu, gdzie obrazki, teksty i filmy będą nieprawdziwe, bo wygenerowane przez modele językowe, a nie narysowane, sfotografowane czy napisane przez żywego człowieka. Przekornie pisząc o sztucznej inteligencji, będę stawiał opór takiemu internetowi i będę pisał do Was cały czas po ludzku.
 
-Nie zawsze będzie oczywiście możliwe by nie pojawiły się tu treści wygenerowane. Przykłady wyników promptów, działania sztucznej inetligencji będą faktycznymi wynikami generowania, to oczywiste. Jednak w treściach artykułów, bądźcie pewnie, że nie uczestniczyła żadna maszyna. Jeśli z jakiegoś powodu będzie inaczej, dam Wam o tym znać.
+Nie zawsze będzie oczywiście możliwe by nie pojawiły się tu treści wygenerowane. Przykłady wyników promptów, działania sztucznej inetligencji będą faktycznymi wynikami generowania, to oczywiste. Jednak w treściach artykułów, bądźcie pewni, że nie uczestniczyła żadna maszyna. Jeśli z jakiegoś powodu będzie inaczej, dam Wam o tym znać.
 
 ## Jeśli nadal boisz się wypróbować AI, daj mi znać
 
