@@ -3,8 +3,9 @@ title: Anthropic mówi o powstrzymaniu dużego ataku, ale mało kto w to wierzy
 published: 2025-11-16 17:22
 tags:
   - claude
+  - Anthropic
 ---
-Wczoraj firma Anthropic, twórca Claude, [poinformował](https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf) świat o powstrzymaniu dużego zautomatyzowanego ataku na wiele firm. 
+Wczoraj firma #Anthropic, twórca Claude, [poinformował](https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf) świat o powstrzymaniu dużego zautomatyzowanego ataku na wiele firm. 
 
 Atak miał przebiegać dość standardowo: włamywacze penetrowali strony i usługi w sieci za pomocą dostępnego oprogramowania do pentestów, próbując włamań na znane, nie załatane podatności w popularnych programach.
 
