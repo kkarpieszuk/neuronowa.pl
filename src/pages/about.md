@@ -32,3 +32,6 @@ Jeśli chcesz się do mnie odezwać odwiedź moją stronę firmową [kolibia.pl]
 
 \--
 Konrad Karpieszuk
+
+-------------------
+Źródło zdjęcia w nagłówku: [Unsplash](https://unsplash.com/photos/a-bunch-of-different-colored-objects-on-a-white-surface-RO_I_35SX7c?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
