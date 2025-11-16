@@ -23,6 +23,7 @@ import remarkMath from 'remark-math' /* for latex math support */
 import rehypeKatex from 'rehype-katex' /* again, for latex math support */
 import remarkGemoji from './src/plugins/remark-gemoji' /* for shortcode emoji support */
 import rehypePixelated from './src/plugins/rehype-pixelated' /* Custom plugin to handle pixelated images */
+import rehypeUtmSource from './src/plugins/rehype-utm-source' /* Add utm_source parameter to external links */
 
 // https://astro.build/config
 export default defineConfig({
@@ -52,6 +53,7 @@ export default defineConfig({
           target: '_blank',
         },
       ],
+      rehypeUtmSource, /* Add utm_source=neuronowa.pl to external links */
       rehypeUnwrapImages,
       rehypePixelated,
       rehypeKatex,
