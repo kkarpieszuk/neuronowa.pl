@@ -1,6 +1,6 @@
 ---
 title: "Raport  Microsoftu: jak AI podbija świat"
-published: 2025-11-16
+published: 2025-11-16 14:21
 tags:
   - microsoft
 ---
