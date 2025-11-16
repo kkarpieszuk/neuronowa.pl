@@ -1,0 +1,133 @@
+---
+---
+
+<div id="cookie-consent-banner" class="hidden fixed bottom-0 left-0 right-0 z-50 bg-background border-t-2 border-accent/20 shadow-lg">
+  <div class="max-w-3xl mx-auto p-4 sm:p-6">
+    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+      <div class="flex-1">
+        <p class="text-sm text-foreground/90 mb-2">
+          Ta strona używa plików cookie, aby zapewnić najlepsze doświadczenie. Kontynuując przeglądanie, wyrażasz zgodę na używanie plików cookie zgodnie z naszą polityką prywatności.
+        </p>
+        <p class="text-xs text-foreground/70">
+          Używamy Google Analytics do analizy ruchu na stronie.
+        </p>
+      </div>
+      <div class="flex gap-3 flex-shrink-0">
+        <button
+          id="cookie-consent-accept"
+          class="px-4 py-2 bg-accent text-background rounded-md hover:opacity-90 transition-opacity text-sm font-medium"
+        >
+          Akceptuję
+        </button>
+        <button
+          id="cookie-consent-reject"
+          class="px-4 py-2 bg-background border border-foreground/20 text-foreground rounded-md hover:bg-foreground/5 transition-colors text-sm font-medium"
+        >
+          Odrzuć
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const COOKIE_CONSENT_KEY = 'cookie-consent'
+  const COOKIE_CONSENT_ACCEPTED = 'accepted'
+  const COOKIE_CONSENT_REJECTED = 'rejected'
+
+  function getCookieConsent() {
+    if (typeof window === 'undefined') return null
+    return localStorage.getItem(COOKIE_CONSENT_KEY)
+  }
+
+  function setCookieConsent(value) {
+    if (typeof window === 'undefined') return
+    localStorage.setItem(COOKIE_CONSENT_KEY, value)
+  }
+
+  function showBanner() {
+    const banner = document.getElementById('cookie-consent-banner')
+    if (banner) {
+      banner.classList.remove('hidden')
+    }
+  }
+
+  function hideBanner() {
+    const banner = document.getElementById('cookie-consent-banner')
+    if (banner) {
+      banner.classList.add('hidden')
+    }
+  }
+
+  function loadGoogleAnalytics() {
+    // Load gtag.js script
+    const script1 = document.createElement('script')
+    script1.async = true
+    script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-3S2VLEYBSH'
+    document.head.appendChild(script1)
+
+    // Initialize gtag
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      window.dataLayer.push(arguments)
+    }
+    window.gtag = gtag
+    gtag('js', new Date())
+    gtag('config', 'G-3S2VLEYBSH')
+  }
+
+  function initializeCookieConsent() {
+    const consent = getCookieConsent()
+
+    if (consent === null) {
+      // No consent given yet, show banner
+      showBanner()
+    } else if (consent === COOKIE_CONSENT_ACCEPTED) {
+      // Consent already given, load analytics
+      loadGoogleAnalytics()
+    }
+    // If rejected, do nothing
+
+    // Set up event listeners
+    const acceptButton = document.getElementById('cookie-consent-accept')
+    const rejectButton = document.getElementById('cookie-consent-reject')
+
+    acceptButton?.addEventListener('click', () => {
+      setCookieConsent(COOKIE_CONSENT_ACCEPTED)
+      hideBanner()
+      loadGoogleAnalytics()
+    })
+
+    rejectButton?.addEventListener('click', () => {
+      setCookieConsent(COOKIE_CONSENT_REJECTED)
+      hideBanner()
+    })
+  }
+
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeCookieConsent)
+  } else {
+    initializeCookieConsent()
+  }
+
+  // Export functions for use in Layout.astro
+  window.getCookieConsent = getCookieConsent
+  window.loadGoogleAnalytics = loadGoogleAnalytics
+</script>
+
+<style>
+  #cookie-consent-banner {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+</style>
+
