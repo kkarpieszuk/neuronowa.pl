@@ -9,7 +9,7 @@ const config: SiteConfig = {
   description:
     'Newsy, porady i tutoriale z zakresu AI. Zawsze pisane przez istotę białkową.',
   // The author of the site, used in the footer, SEO, and RSS feed.
-  author: 'Konrad Karpieszuk',
+  author: 'Neuronowa.pl',
   // Keywords for SEO, used in the meta tags.
   tags: ['AI', 'ChatGPT', 'Claude', 'Gemini', 'Perplexity', 'Wolfram', 'Neuronowa', 'LLM', 'machine learning'],
   // Path to the image used for generating social media previews.
