@@ -1,6 +1,6 @@
 ---
 title: "Co w AI piszczy: Uciekanie z autocenzury AI i łapanie w cenzurę, gpt-5.1 w API"
-draft: true
+draft: false
 published: 2025-11-18
 tags:
   - OpenAI
