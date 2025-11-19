@@ -155,7 +155,7 @@ const config: SiteConfig = {
     mastodon: 'https://pol.social/@kkarpieszuk',
     email: 'kkarpieszuk@gmail.com',
     linkedin: 'https://www.linkedin.com/in/konrad-karpieszuk-38528b11/',
-    bluesky: 'https://bsky.app/profile/kkarpieszuk.bsky.social',
+    bluesky: 'https://bsky.app/profile/neuronowa.bsky.social',
     // twitter: 'https://github.com/stelcodes/multiterm-astro',
     rss: true, // Set to true to include an RSS feed link in the footer
   },
