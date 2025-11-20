@@ -1,7 +1,7 @@
 ---
 title: "Paradoksy AI: łatwo dać się oszukać"
 published: 2025-11-20 8:00
-tags: paradoks
+tags: [paradoks]
 ---
 
 ## Paradoks zaufania
