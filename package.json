@@ -9,7 +9,8 @@
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "draft": "node scripts/create-draft.js"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^6.3.6",
