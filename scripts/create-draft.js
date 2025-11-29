@@ -3,7 +3,7 @@
 import { createInterface } from 'node:readline';
 import { writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+import { join } from 'node:path';
 
 const rl = createInterface({
   input: process.stdin,
@@ -73,7 +73,6 @@ async function createDraft() {
     const postsDir = join(process.cwd(), 'src', 'content', 'posts');
     const draftDir = join(postsDir, slugTrimmed);
     const draftFile = join(draftDir, 'index.md');
-    const draftFileAbsolute = resolve(draftFile);
 
     // Sprawdź czy katalog już istnieje
     if (existsSync(draftDir)) {
@@ -98,8 +97,7 @@ tags:
     await writeFile(draftFile, content, 'utf-8');
 
     console.log(`✓ Utworzono draft: ${slugTrimmed}`);
-    console.log(`\n📄 Pełna ścieżka do pliku:`);
-    console.log(`   ${draftFileAbsolute}`);
+    console.log(`\n📄 ${slugTrimmed}/index.md`);
   } catch (error) {
     console.error('Błąd podczas tworzenia draftu:', error);
     process.exit(1);
