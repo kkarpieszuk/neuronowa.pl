@@ -2,7 +2,10 @@
 title: 'Co w AI piszczy: dziś trochę na smutno'
 published: 2025-11-29 09:42
 tags:
-   -
+   - gemini
+   - gates
+   - gmail
+   - praca
 ---
 
 Dziś trochę na smutno, bo tak się złożyło, że większość newsów ma wydźwięk negatywny. To raczej przypadek, niespecjalnie taki zestaw wam wyszukałem, ale za to każde źródło tym razem jest po polsku. No ale lecimy.
