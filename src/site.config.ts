@@ -4,7 +4,7 @@ const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
   site: 'https://neuronowa.pl',
   // The name of your site, used in the title and for SEO.
-  title: 'Neuronowa.pl',
+  title: 'Neuronowa.pl - Newsy, Porady i Analizy Sztucznej Inteligencji (AI)',
   // The description of your site, used for SEO and RSS feed.
   description:
     'Newsy, porady i tutoriale z zakresu AI. Zawsze pisane przez istotę białkową.',

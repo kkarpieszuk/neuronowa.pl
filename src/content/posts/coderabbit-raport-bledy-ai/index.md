@@ -5,6 +5,7 @@ tags:
    - coderabbit
    - code-generation
    - ai vs human
+description: "Kto jest lepszy w pisaniu kodu: człowiek czy AI? Raport od CodeRabbit pokazuje zdecydowanego zwycięzcę"
 ---
 
 I do tego błędów zagrażających bezpieczeństwu jest o 50% więcej niż w kodzie stworzonym ręcznie.
