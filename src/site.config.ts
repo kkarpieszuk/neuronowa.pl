@@ -29,7 +29,7 @@ const config: SiteConfig = {
   // The navigation links to display in the header.
   navLinks: [
     {
-      name: 'Start',
+      name: 'Strona główna',
       url: '/',
     },
     {
