@@ -11,7 +11,7 @@ tags:
 
 Rok 2025 to był rok prowadzenia (albo rozwoju) "reasoning" czyli symulacji myślenia wieloetapowegio modeli, by zwrócić dokładniejszy wynik. AI dzieli zadanie na części, wynik każdej weryfikuje zewnętrznymi narzędziami i nagreadza się za to - dzięki temu wie, gdzie ma podążyć "tok myślenia" i przechodzi do kolejnego etapu.
 
-Wystrzał agentów. Agentowe AI to już standard w wielu zastosowaniach i pewnie będzie tego jeszcze więcej (btw, [Meta kupiła Manus](https://simonwillison.net/2025/Dec/31/the-year-in-llms/), firmę która właśnie rozwija i tworzy agenty AI)
+Wystrzał agentów. Agentowe AI to już standard w wielu zastosowaniach i pewnie będzie tego jeszcze więcej (btw, [Meta kupiła Manus](https://www.facebook.com/business/news/manus-joins-meta-accelerating-ai-innovation-for-businesses), firmę która właśnie rozwija i tworzy agenty AI)
 
 LLM zagościł się na dobre w terminalach CLI. Już nie tylko jest Claude CLI czy Warp, ale każdy inny dostawca  modeli ma swój odpowiednik (a skills kolejno pojawia się w nich).
 
