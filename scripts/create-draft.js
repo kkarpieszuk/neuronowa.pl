@@ -63,7 +63,8 @@ async function createDraft() {
       process.exit(1);
     }
 
-    const slugTrimmed = slugify(slugInput.trim());
+    const originalTitle = slugInput.trim();
+    const slugTrimmed = slugify(originalTitle);
 
     if (!slugTrimmed) {
       console.error('Nie udało się utworzyć poprawnego sluga!');
@@ -83,12 +84,19 @@ async function createDraft() {
     // Utwórz katalog
     await mkdir(draftDir, { recursive: true });
 
+    // Escape pojedynczych cudzysłowów w tytule
+    const escapedTitle = originalTitle.replace(/'/g, "\\'");
+
+    // Wyciągnij pierwsze słowo jako domyślny tag
+    const firstWord = originalTitle.split(/\s+/)[0];
+    const defaultTag = slugify(firstWord);
+
     // Utwórz zawartość pliku
     const content = `---
-title: ''
+title: '${escapedTitle}'
 published: ${getCurrentDateTime()}
 tags:
-   -
+   - ${defaultTag}
 ---
 
 `;
