@@ -13,10 +13,10 @@
     "draft": "node scripts/create-draft.js"
   },
   "dependencies": {
-    "@astrojs/markdown-remark": "^6.3.9",
-    "@astrojs/mdx": "^4.3.12",
+    "@astrojs/markdown-remark": "^6.3.10",
+    "@astrojs/mdx": "^4.3.13",
     "@astrojs/rss": "^4.0.14",
-    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/sitemap": "^3.6.1",
     "@astrojs/ts-plugin": "^1.10.6",
     "@expo-google-fonts/jetbrains-mono": "^0.4.0",
     "@expressive-code/plugin-line-numbers": "^0.41.3",
@@ -27,7 +27,7 @@
     "@types/hast": "^3.0.4",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
-    "astro": "^5.16.4",
+    "astro": "^5.16.7",
     "astro-expressive-code": "^0.41.3",
     "color": "^5.0.0",
     "date-fns": "^4.1.0",
