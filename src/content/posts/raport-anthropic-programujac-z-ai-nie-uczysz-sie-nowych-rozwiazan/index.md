@@ -18,3 +18,5 @@ Po wykonanych zadaniu przeprowadzono test ze znajomości rozwiązania jakie stwo
 Co więcej: nie było warto korzystać z AI. Zadanie było złożone i dla obu grup zajęło podobną ilość czasu. Vibe koderzy musieli wielokrotnie poprawiać wynik wykonując dodatkowe prompty (i oni w teście kompletnie polegli bo nie znali kodu i narzędzia w ogóle), natomiast ci, którzy podeszli do zadania jak do "AI-assited" (analizowali wyniki, próbowali różnych podejść, dzielili zadanie na mniejsze) osiągnęli lepszy wynik w teście (bo poznali to, nad czym pracują) ale oczywiście wymagało to więcej czasu.
 
 To tylko kolejny raz potwierdza, że niestety "AI-generated" kod prędzej czy później zemści się na projekcie. Albo generujemy to wolno (ale niwiele różnimy się od piszących kod ręcznie) albo szybko ale nie wiemy co tworzymy.
+
+Należy też wziąć poprawkę na to, że badano tylko pracę nad nowym projektem. Wyniki w zadaniach gdzie programista pracujący nad bazą kodu od lat i znający ją dobrze postanawia wdrożyć AI jako kolejne narzędzie do swojego workflow nie są znane.
