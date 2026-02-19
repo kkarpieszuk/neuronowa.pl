@@ -1,5 +1,4 @@
 ---
-
 title: 'Zakaz używania subskrybcyjnych kluczy od Anthropic w zewnętrznych narzędziach!'
 published: 2026-02-19 07:28
 tags:
@@ -10,6 +9,7 @@ tags:
    - sonnet
    - api
    - openclaw
+---
 
 No to jest naprawdę wielka zmiana. Anthropic do swojego regulaminu [wprowadził zapis](https://code.claude.com/docs/en/legal-and-compliance), że api keys z subskrybcji służące do dostępu do ich modeli Claude  takich jak Sonnet czy Opus mogę być wykorzystywane w Claude.ai i Claude Code. Nigdzie indziej - tylko w narzędziach stworzonych przez Anthropic.
 
