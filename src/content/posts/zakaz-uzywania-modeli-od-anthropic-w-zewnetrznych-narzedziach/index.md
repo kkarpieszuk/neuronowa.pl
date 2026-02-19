@@ -1,6 +1,6 @@
 ---
 
-## title: 'Zakaz używania subskrybcyjnych kluczy od Anthropic w zewnętrznych narzędziach!'
+title: 'Zakaz używania subskrybcyjnych kluczy od Anthropic w zewnętrznych narzędziach!'
 published: 2026-02-19 07:28
 tags:
    - zakaz
