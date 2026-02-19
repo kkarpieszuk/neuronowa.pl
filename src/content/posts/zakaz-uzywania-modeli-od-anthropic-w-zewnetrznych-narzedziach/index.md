@@ -11,7 +11,7 @@ tags:
    - api
    - openclaw
 
-No to jest naprawdę wielka zmiana. Anthropic do swojego regulaminu [wprowadził zapis](https://code.claude.com/docs/en/legal-and-compliance), że api keys z subskrybcji służące do dostępu do ich modeli Claude  takich jak Sonnet czy Opus mogę być wykorzystywane w Claude.ai i Claude Code. Nigdzie indziej.
+No to jest naprawdę wielka zmiana. Anthropic do swojego regulaminu [wprowadził zapis](https://code.claude.com/docs/en/legal-and-compliance), że api keys z subskrybcji służące do dostępu do ich modeli Claude  takich jak Sonnet czy Opus mogę być wykorzystywane w Claude.ai i Claude Code. Nigdzie indziej - tylko w narzędziach stworzonych przez Anthropic.
 
 Jeśli więc używasz OpenClaw, Chatbox, Cursor czy cokolwiek innego gdzie do używania musiałeś skopiować i wkleić klucz api od Antrhopic, robisz to nielegelanie. To też podważa w ogóle korzystanie z ich API: teoretycznie nie możesz sam wykonywać requestów do ich API z swojego programu czy skryptu. Co prawda pracownicy Anhtropic na [Twitterze](https://x.com/trq212/status/2024212380142752025) mówią, że dla własnych eksperymentów wciąż będzie można  używać API, ale to nie regulamin używania, a opinia pracowników, nie jest to prawnie wiążące.
 
