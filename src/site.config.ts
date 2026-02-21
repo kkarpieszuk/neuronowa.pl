@@ -41,6 +41,10 @@ const config: SiteConfig = {
       url: '/posts',
     },
     {
+      name: 'O autorze',
+      url: '/o-autorze',
+    },
+    {
       name: 'Wynajmij autora',
       url: 'https://kolibia.pl',
       external: true,
