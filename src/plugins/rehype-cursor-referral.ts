@@ -3,6 +3,9 @@ import type { RehypePlugin } from '@astrojs/markdown-remark'
 
 const REFERRAL_HREF = 'https://cursor.com/referral?code=FBX2U1YQIKB0'
 
+const REFERRAL_LINK_TITLE =
+  'Klikając w ten link dostajesz 50% zniżki na pierwszy miesiąc korzystania z Cursor'
+
 /** Nie zamieniamy „cursor” w treści od razu wykluczonej z auto-linków */
 const SKIP_SUBTREE_TAGS = new Set([
   'a',
@@ -29,7 +32,7 @@ function linkifyCursorText(value: string): hast.RootContent[] {
     parts.push({
       type: 'element',
       tagName: 'a',
-      properties: { href: REFERRAL_HREF },
+      properties: { href: REFERRAL_HREF, title: REFERRAL_LINK_TITLE },
       children: [{ type: 'text', value: match[0] }],
     })
     lastIndex = match.index + match[0].length
