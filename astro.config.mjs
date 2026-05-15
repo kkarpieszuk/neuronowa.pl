@@ -24,6 +24,7 @@ import rehypeKatex from 'rehype-katex' /* again, for latex math support */
 import remarkGemoji from './src/plugins/remark-gemoji' /* for shortcode emoji support */
 import rehypePixelated from './src/plugins/rehype-pixelated' /* Custom plugin to handle pixelated images */
 import rehypeUtmSource from './src/plugins/rehype-utm-source' /* Add utm_source parameter to external links */
+import rehypeCursorReferral from './src/plugins/rehype-cursor-referral' /* Link word “cursor” to referral URL */
 
 // https://astro.build/config
 export default defineConfig({
@@ -46,6 +47,7 @@ export default defineConfig({
       [rehypeHeadingIds, { headingIdCompat: true }],
       [rehypeAutolinkHeadings, { behavior: 'wrap' }],
       rehypeTitleFigure,
+      rehypeCursorReferral,
       [
         rehypeExternalLinks,
         {
