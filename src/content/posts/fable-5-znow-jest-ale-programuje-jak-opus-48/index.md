@@ -11,4 +11,5 @@ Anthropic przywrócił dostęp do modelu Fable 5. [Po ponad trzech tygodniach ni
 
 Przy czym nie jest to już ten sam model, co wcześniej. Oczywiście wprowadzono ograniczenia zabezpieczające przed wykorzystaniem go od doniecnych celów. Ale co więcej, najbardziej szokująca jest wiadomość, jaka pojawiła się we wpisie na Twitterze z oficjalnego konta twórców. [Otóż jawnie oni przyznają](https://x.com/AnthropicAI/status/2072163884430229756), że jeśli chcemy użyć tego modelu do programowania albo do debugowania, automatycznie on przełączy się na starszą i słabszą wersję, czyli Opus 4.8.
 
+![Fable 5 to w praktyce Opus 4.8](./Fable-jak-opus.png)
 
