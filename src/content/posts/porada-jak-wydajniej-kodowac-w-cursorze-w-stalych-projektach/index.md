@@ -16,6 +16,8 @@ Jednym ze sposobów, który używam już od jakiegoś czasu jest przepisanie `ru
 
 Bo tak: Cursor ma dostęp do poprzednich rozmów, ale nie zagląda do nich, dopóki go o to nie poprosimy. A takie poproszenie jak wyżej pozwala na znalezienie rzeczy, jakie w kółko musi powtarzać przy nowych zadaniach. To nie tylko zmniejsza zużycie tokenów, ale przede wszystkim przyspiesza pracę nad projektem: nie musi już odkrywać tego, co zapisze sobie w skillsach i rules.
 
+Wydajność tego polecenia jest naprawdę niesamowita: zobaczycie jak dużo oczywistych rzeczy AI-edytor musi w kółko odkrywać. Sam zauważy, które pliki najczęściej edytujecie i stworzy rules podpowiadający po co one są. Opisza dokładnie wszystkie składowe projektu (i tu jest chyba największa oszczędnośćna tokenach: zamiast w każdej kolejnej rozmowie wysyłać cały codebase do modelu, będzie czerpać wstępną o nim wiedzę z opisu, który sobie stworzy).
+
 Tip dodatkowy: po wykonaniu powyższego prompta, wydajcie kolejny:
 
 > Zapisz ten prompt, który wykonałeś powyżej, jako globalny command o nazwie rediscover-to-skills-and-prompts
